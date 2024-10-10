@@ -1,0 +1,204 @@
+.about__wrapper {
+    background-image: url('/images/about/placeholder.jpg');
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 160px 0;
+    margin-bottom: 100px;
+}
+
+
+.about__wrapper-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;       
+}
+
+.about__content-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    max-width: 822px;
+    padding-bottom: 22px;
+    margin-bottom: 23px;
+    position: relative;
+}
+
+.about__content-title::before {
+    content: '';
+    position: absolute;
+    background-color: $color-text;
+    height: 2px;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+}
+
+.about__content-text {
+    color: $color-footer-text;
+    max-width: 825px;
+    margin-left: 285px;
+    padding-bottom: 40px;
+}
+
+.about__content-desc {
+    margin-bottom: 30px;
+}
+
+
+.about__popup-play img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.about__popup {
+    margin-bottom: 100px;
+}
+
+.about__popup-wrapper {
+    background-image: url('/images/about/hands-of-two-young-female-colleagues-looking-throu-5XLFDY5.png');
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 414px;
+    position: relative;
+}
+
+//
+
+.inspiration__title {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    // text-align: center;
+}
+
+.inspiration__wrapper {
+    margin-left: 459px;
+    max-width: 625px;
+    text-align: start;
+    padding-bottom: 40px;
+}
+
+
+
+.inspiration{
+    position: relative;
+    padding-top: 102px;
+}
+
+.inspiration::after {
+    content: '';
+    position: absolute;
+    background-image: url('/images/about/Object.jpg');
+    background-color: $color-text;
+    // inset: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 180px;
+
+
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+.inspiration__title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+
+    width: 200px;
+    height: 2px;
+    background-color: #6D7278;
+}
+
+.inspiration__img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+//progress
+
+.progress__title {
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.inspiration__text {
+    margin-bottom: 30px;
+}
+
+.progress__item {
+    max-width: 824px;
+    margin-bottom: 23px;
+}
+
+.progress__top {
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-line {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 100%;
+}
+
+.progress-drag__design {
+    background-color: black;
+    width: 80%;
+    height: 2px;
+}
+
+.progress-drag__easurments {
+    width: 70%;
+    background-color: black;
+    height: 2px;
+}
+
+.progress-drag__furniture {
+    width: 75%;
+    background-color: black;
+    height: 2px;
+}
+
+.progress-drag__interior {
+    width: 40%;
+    background-color: black;
+    height: 2px;
+}
+
+// partners
+
+.partners__track {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+    gap: 25px;
+}
+
+
+.partners__item {
+    flex: 0 0 320px; 
+    animation: slide 10s linear infinite;
+}
+
+
+.about__collection-item-wrapper {
+    justify-content: center;
+    margin-bottom: 72px;
+}

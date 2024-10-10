@@ -1,0 +1,52 @@
+.gallery {
+    padding: 80px 0 90px;
+}
+
+.gallery__btn {
+    border-radius: 20px;
+    border: 1px solid #454647;
+    background-color: transparent;
+    color: #8F8D8D;
+    margin-bottom: 40px;
+    margin-right: 25px;
+    padding: 6px 16px;
+}
+
+.gallery__buttons {
+    text-align: center;  
+}
+
+.mixitup-control-active{
+    background-color: yellow;
+    color: black;
+}
+
+.gallery__items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+
+}
+
+.gallery__item:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.gallery-page .gallery__item:nth-child(8)  {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.gallery-page .gallery__item img {
+    max-height: 1060px;
+}
+
+.gallery__item img {
+    max-height: 1150px;
+    height: 100%;
+    width: 100%;
+}
+
+
