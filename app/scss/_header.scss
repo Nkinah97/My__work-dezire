@@ -1,0 +1,127 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 80px;
+
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.menu {
+    padding-left: 35px;
+    padding-right: 60px;
+}
+
+.header__btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.header__btn-mobile {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu__list-link {
+    color: black;
+    font-weight: 700;
+}
+
+.list__item {
+    transition: transform .2s;
+}
+
+.list__item:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
+
+.rightside__menu.active {
+    transition: all .5s;
+    opacity: 1; 
+    transform: translateX(0);
+
+}
+
+.rightside__menu {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all .5s;
+
+
+    width: 100%;
+    margin-top: 40px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 694px;
+    background-color: white;
+    box-shadow: -12px 13px 14px 3px silver;
+    z-index: 10;
+
+
+    &-close {
+        background: none;
+        border: none;
+        margin-left: 50px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    &-content {
+        text-align: center;
+        max-width: 485px;
+        margin: 0 auto;
+    }
+
+    &-logo {
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+
+    &-img {
+        max-width:485px;
+        max-width: 485px;
+        height: 280px;
+
+        margin: 0 auto
+    }
+
+    &-title {
+        font-size: 36px;
+        font-weight: 700;
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+    &-title::before {
+        content: '';
+        position: absolute;
+
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, -50%);
+
+        border-bottom: 1px solid $color-footer-text;
+        width: 45%;
+
+    }
+
+    &-text {
+        color: $color-text;
+        padding: 17px 0 75px;
+    }
+}
