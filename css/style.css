@@ -494,7 +494,7 @@ body {
 }
 
 .decor {
-  background-image: url(/images/decor/Mask.png);
+  background-image: url("images/decor/Mask.png");
   min-height: 615px;
   background-repeat: no-repeat;
   background-position: center;
