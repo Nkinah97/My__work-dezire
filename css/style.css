@@ -354,7 +354,7 @@ body {
 }
 
 .top {
-  background-image: url("/images/main-slider/main_slider.jpg");
+  background-image: url("../images/main-slider/main_slider.jpg");
   background-position: center center; /* x y */
   background-size: cover;
   background-repeat: no-repeat;
