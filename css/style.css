@@ -494,7 +494,7 @@ body {
 }
 
 .decor {
-  background-image: url(/images/decor/Mask.png);
+  background-image: url(../images/decor/Mask.png);
   min-height: 615px;
   background-repeat: no-repeat;
   background-position: center;
@@ -884,7 +884,7 @@ body {
 .blog__content-video {
   height: 415px;
   background-color: #999;
-  background-image: url("/images/blog/video.png");
+  background-image: url("../images/blog/video.png");
   background-position: center center; /* x y */
   background-size: cover;
   background-repeat: no-repeat;
@@ -1164,7 +1164,7 @@ body {
 }
 
 .about__wrapper {
-  background-image: url("/images/about/placeholder.jpg");
+  background-image: url("../images/about/placeholder.jpg");
   background-position: center center; /* x y */
   background-size: cover;
   background-repeat: no-repeat;
@@ -1223,7 +1223,7 @@ body {
 }
 
 .about__popup-wrapper {
-  background-image: url("/images/about/hands-of-two-young-female-colleagues-looking-throu-5XLFDY5.png");
+  background-image: url("../images/about/hands-of-two-young-female-colleagues-looking-throu-5XLFDY5.png");
   background-position: center center; /* x y */
   background-size: cover;
   background-repeat: no-repeat;
@@ -1254,7 +1254,7 @@ body {
 .inspiration::after {
   content: "";
   position: absolute;
-  background-image: url("/images/about/Object.jpg");
+  background-image: url("../images/about/Object.jpg");
   background-color: #5A5A5A;
   bottom: 0;
   left: 0;

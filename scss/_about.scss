@@ -1,5 +1,5 @@
 .about__wrapper {
-    background-image: url('/images/about/placeholder.jpg');
+    background-image: url('../images/about/placeholder.jpg');
     background-position: center center; /* x y */
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@
 }
 
 .about__popup-wrapper {
-    background-image: url('/images/about/hands-of-two-young-female-colleagues-looking-throu-5XLFDY5.png');
+    background-image: url('../images/about/hands-of-two-young-female-colleagues-looking-throu-5XLFDY5.png');
     background-position: center center; /* x y */
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@
 .inspiration::after {
     content: '';
     position: absolute;
-    background-image: url('/images/about/Object.jpg');
+    background-image: url('../images/about/Object.jpg');
     background-color: $color-text;
     // inset: 0;
     bottom: 0;
