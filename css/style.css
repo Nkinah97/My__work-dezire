@@ -354,7 +354,7 @@ body {
 }
 
 .top {
-  background-image: url("images/main-slider/main_slider.jpg");
+  background-image: url("/images/main-slider/main_slider.jpg");
   background-position: center center; /* x y */
   background-size: cover;
   background-repeat: no-repeat;
@@ -494,7 +494,7 @@ body {
 }
 
 .decor {
-  background-image: url("images/decor/Mask.png");
+  background-image: url(/images/decor/Mask.png);
   min-height: 615px;
   background-repeat: no-repeat;
   background-position: center;
